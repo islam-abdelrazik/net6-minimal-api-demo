@@ -1,0 +1,13 @@
+### Post Customer
+POST https://localhost:7055/add  HTTP/1.1
+content-type: application/json
+
+{
+    "name": "xyz",
+    "address": "tets"
+}
+
+### Get Customer By Id
+
+GET https://localhost:7055/GetById/{{$randomInt 1 100}}  HTTP/1.1
+content-type: application/json
